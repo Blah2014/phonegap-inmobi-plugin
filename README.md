@@ -122,6 +122,8 @@ Include the below within the &#60;manifest&#62; tag.
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 ```
 
+###### Insert InMobi property ID
+In CDVInMobi.java replace "Insert InMobi property ID here" in two places with your siteID from InMobi property.
 
 
 
