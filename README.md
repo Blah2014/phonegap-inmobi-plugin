@@ -25,6 +25,14 @@ phonegap local plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
 ```
 plugman --platform ios --project ./platforms/ios --plugin https://github.com/Blah2014/phonegap-inmobi-plugin
 ```
+
+## Usage
+```
+<script>
+    InMobi.showAd();
+</script>
+```
+
 ## Configuration
 ##### iOS
 ###### Adding the SDK to your Project
