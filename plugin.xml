@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.setlevel.inmobi" version="0.1.0">
+    <name>InMobi</name>
+    <description>Cordova InMobi Plugin</description>
+    <author>Dmitriy Devayev</author>
+    <license>Apache 2.0 License</license>
+    <keywords>cordova,inmobi</keywords>
+    <js-module src="www/inmobi.js" name="InMobi">
+        <clobbers target="InMobi" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CDVInMobi">
+                <param name="ios-package" value="CDVInMobi" onload="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVInMobi.h" />
+        <source-file src="src/ios/CDVInMobi.m" />
+    </platform>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CDVInMobi" >
+                <param name="android-package" value="org.apache.cordova.inmobi.CDVInMobi" onload="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/CDVInMobi.java" target-dir="src/org/apache/cordova/inmobi/" />
+    </platform>
+</plugin>
