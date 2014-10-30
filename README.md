@@ -25,8 +25,32 @@ phonegap local plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
 ```
 plugman --platform ios --project ./platforms/ios --plugin https://github.com/Blah2014/phonegap-inmobi-plugin
 ```
+## Configuration
+##### iOS
+###### Adding the SDK to your Project
+Download latest InMobi SDK
 
+Drag and drop under Xcode project Libs folder from downloaded iOS SDK
 
+###### Adding Frameworks
+You will need to add some optional and mandatory frameworks to your Xcode project for the SDK to work correctly. The frameworks required to compile the InMobi SDK 4.x monetization library are given below:
 
+* AdSupport.framework
+* AudioToolbox.framework
+* AVFoundation.framework
+* CoreLocation.framework
+* CoreTelephony.framework
+* EventKit.framework
+* EventKitUI.framework
+* MediaPlayer.framework
+* MessageUI.framework
+* Security.framework
+* Social.framework
+* StoreKit.framework
+* SystemConfiguration.framework
+* libsqlite3.0.dylib
+* libz.dylib
+
+![Adding Frameworks](https://github.com/Blah2014/phonegap-inmobi-plugin/blob/gh-pages/inmobi/Sample-Integration-2.png)
 
 
