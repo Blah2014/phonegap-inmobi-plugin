@@ -64,7 +64,8 @@ Add the -ObjC flag to the Other Linker Flags. To do so, perform the below steps:
 
 ![AddObjc](https://github.com/Blah2014/phonegap-inmobi-plugin/blob/gh-pages/inmobi/AddObjc.png)
 
-
+###### Insert InMobi property ID
+In CDVInMobi.m replace "Insert InMobi property ID here" in two places with your siteID from InMobi property.
 
 
 
