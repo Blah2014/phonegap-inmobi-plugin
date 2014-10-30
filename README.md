@@ -52,5 +52,19 @@ You will need to add some optional and mandatory frameworks to your Xcode projec
 * libz.dylib
 
 ![Adding Frameworks](https://github.com/Blah2014/phonegap-inmobi-plugin/blob/gh-pages/inmobi/Sample-Integration-2.png)
+If you use iOS 8, please add the NSLocationWhenInUseUsageDescription flag to your info.plist file.
+
+###### Adding Additional Build Settings
+Add the -ObjC flag to the Other Linker Flags. To do so, perform the below steps:
+
+1. Open your project in Xcode.
+2. Select Application Target > Build Settings.
+3. In the Search field, search for 'Other Linker Flags'.
+4. Add the -ObjC flag.
+
+![AddObjc](https://github.com/Blah2014/phonegap-inmobi-plugin/blob/gh-pages/inmobi/AddObjc.png)
+
+
+
 
 
