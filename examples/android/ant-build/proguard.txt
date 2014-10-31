@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:6
+-keep class com.domain.example.Example { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.inmobi.androidsdk.IMBrowserActivity { <init>(...); }
+

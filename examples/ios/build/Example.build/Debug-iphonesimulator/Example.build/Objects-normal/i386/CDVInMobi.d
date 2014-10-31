@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Example/Plugins/com.setlevel.inmobi/CDVInMobi.m \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Example/Plugins/com.setlevel.inmobi/CDVInMobi.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMInterstitial.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/InMobi.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMConstants.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMInterstitialDelegate.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMError.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMIncentivisedDelegate.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/build/emulator/include/Cordova/CDVJSON.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMBanner.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMBannerDelegate.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMNative.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/IMNativeDelegate.h \
+  /Users/dmitriydevayev/Documents/_Projects/PhoneGapPlugins/NewTest/Example/platforms/ios/Libs/InMobiAnalytics.h
