@@ -9,6 +9,14 @@ This plugin provides an implementation of InMobi Native Interstitial Ad.
   <li>Android</li>
 </ul>
 
+<h2>Important!</h2>
+<b>Note:</b> steps you should take.
+
+1. Install plutform (iOS, Android)
+2. Install InMobi SDK 4.x
+3. Add plugin (phonegap-inmobi-plugin)
+4. Build (iOS, Android)
+
 <h2>Installation</h2>
 
 <h5>Cordova CLI</h5>
