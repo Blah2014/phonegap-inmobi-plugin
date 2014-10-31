@@ -22,17 +22,17 @@ This plugin provides an implementation of InMobi Native Interstitial Ad.
 
 <h5>Cordova CLI</h5>
 ```
-cordova plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
+cordova plugin add https://github.com/Blah2014/phonegap-inmobi-plugin/source
 ```
 
 <h5>Phonegap CLI</h5>
 ```
-phonegap local plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
+phonegap local plugin add https://github.com/Blah2014/phonegap-inmobi-plugin/source
 ```
 
 <h5>plugman CLI</h5>
 ```
-plugman --platform ios --project ./platforms/ios --plugin https://github.com/Blah2014/phonegap-inmobi-plugin
+plugman --platform ios --project ./platforms/ios --plugin https://github.com/Blah2014/phonegap-inmobi-plugin/source
 ```
 
 ## Usage
