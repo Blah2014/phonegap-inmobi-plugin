@@ -5,6 +5,11 @@
     <author>Dmitriy Devayev</author>
     <license>Apache 2.0 License</license>
     <keywords>cordova,inmobi</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
     <js-module src="www/inmobi.js" name="InMobi">
         <clobbers target="InMobi" />
     </js-module>
