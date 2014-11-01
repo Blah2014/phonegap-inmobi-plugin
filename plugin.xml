@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.setlevel.inmobi" version="0.1.0">
     <name>InMobi</name>
-    <description>Cordova InMobi Plugin</description>
+    <description>Phonegap/Cordova InMobi Plugin. This plugin provides an implementation of InMobi Native Interstitial Ad.</description>
     <author>Dmitriy Devayev</author>
     <license>Apache 2.0 License</license>
-    <keywords>cordova,inmobi</keywords>
+    <keywords>phonegap,cordova,inmobi</keywords>
 
     <engines>
         <engine name="cordova" version=">=3.0" />
