@@ -22,6 +22,10 @@ This plugin provides an implementation of InMobi Native Interstitial Ad.
 
 <h5>Cordova CLI</h5>
 ```
+cordova plugin add com.setlevel.inmobi
+```
+or
+```
 cordova plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
 ```
 
