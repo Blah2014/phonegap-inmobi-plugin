@@ -31,45 +31,229 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
+            <article class="markdown-body entry-content" itemprop="mainContentOfPage">
+                <h1>
+                    <a name="user-content-phonegap-inmobi-plugin" class="anchor" href="#phonegap-inmobi-plugin" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>phonegap-inmobi-plugin</h1>
 
-            <p>This plugin provides an implementation of InMobi Native Interstitial Ad.</p>
+                <p>This plugin provides an implementation of InMobi Native Interstitial Ad.</p>
 
-            <pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+                <h2>
+                    <a name="user-content-supported-platforms" class="anchor" href="#supported-platforms" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Supported platforms</h2>
+
+                <ul class="task-list">
+                    <li>iOS</li>
+                    <li>Android</li>
+                </ul>
+
+                <h2>
+                    <a name="user-content-important" class="anchor" href="#important" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Important!</h2>
+
+                <p><b>Note:</b> steps you should take.</p>
+
+                <ol class="task-list">
+                    <li>Install plutform (iOS, Android)</li>
+                    <li>Install InMobi SDK 4.x</li>
+                    <li>Add plugin (phonegap-inmobi-plugin)</li>
+                    <li>Replace "Insert InMobi property ID here" in two places with your siteID from InMobi property</li>
+                    <li>Build (iOS, Android)</li>
+                </ol>
+
+                <h2>
+                    <a name="user-content-installation" class="anchor" href="#installation" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Installation</h2>
+
+                <h5>
+                    <a name="user-content-cordova-cli" class="anchor" href="#cordova-cli" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Cordova CLI</h5>
+
+                <pre><code>cordova plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
 </code></pre>
 
-            <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+                <h5>
+                    <a name="user-content-phonegap-cli" class="anchor" href="#phonegap-cli" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Phonegap CLI</h5>
 
-            <h3>
-                <a name="designer-templates" class="anchor" href="#designer-templates">
-                    <span class="octicon octicon-link"></span>
-                </a>Designer Templates</h3>
+                <pre><code>phonegap local plugin add https://github.com/Blah2014/phonegap-inmobi-plugin
+</code></pre>
 
-            <p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+                <h5>
+                    <a name="user-content-plugman-cli" class="anchor" href="#plugman-cli" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>plugman CLI</h5>
 
-            <h3>
-                <a name="rather-drive-stick" class="anchor" href="#rather-drive-stick">
-                    <span class="octicon octicon-link"></span>
-                </a>Rather Drive Stick?</h3>
+                <pre><code>plugman --platform ios --project ./platforms/ios --plugin https://github.com/Blah2014/phonegap-inmobi-plugin
+</code></pre>
 
-            <p>If you prefer to not use the automatic generator, push a branch named
-                <code>gh-pages</code>to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+                <h2>
+                    <a name="user-content-usage" class="anchor" href="#usage" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Usage</h2>
 
-            <h3>
-                <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors">
-                    <span class="octicon octicon-link"></span>
-                </a>Authors and Contributors</h3>
+                <pre><code>&lt;script&gt;
+    InMobi.showAd();
+&lt;/script&gt;
+</code></pre>
 
-            <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting
-                <code>&lt;a&gt;</code>element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+                <h2>
+                    <a name="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Configuration</h2>
 
-            <h3>
-                <a name="support-or-contact" class="anchor" href="#support-or-contact">
-                    <span class="octicon octicon-link"></span>
-                </a>Support or Contact</h3>
+                <h3>
+                    <a name="user-content-ios" class="anchor" href="#ios" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>iOS</h3>
 
-            <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+                <h6>
+                    <a name="user-content-adding-the-sdk-to-your-project" class="anchor" href="#adding-the-sdk-to-your-project" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Adding the SDK to your Project</h6>
+
+                <p>Download latest InMobi SDK for iOS</p>
+
+                <p>Drag and drop under Xcode project Libs folder from downloaded iOS SDK 4.x</p>
+
+                <h6>
+                    <a name="user-content-adding-frameworks" class="anchor" href="#adding-frameworks" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Adding Frameworks</h6>
+
+                <p>You will need to add some optional and mandatory frameworks to your Xcode project for the SDK to work correctly. The frameworks required to compile the InMobi SDK 4.x monetization library are given below:</p>
+
+                <ul class="task-list">
+                    <li>AdSupport.framework</li>
+                    <li>AudioToolbox.framework</li>
+                    <li>AVFoundation.framework</li>
+                    <li>CoreLocation.framework</li>
+                    <li>CoreTelephony.framework</li>
+                    <li>EventKit.framework</li>
+                    <li>EventKitUI.framework</li>
+                    <li>MediaPlayer.framework</li>
+                    <li>MessageUI.framework</li>
+                    <li>Security.framework</li>
+                    <li>Social.framework</li>
+                    <li>StoreKit.framework</li>
+                    <li>SystemConfiguration.framework</li>
+                    <li>libsqlite3.0.dylib</li>
+                    <li>libz.dylib</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/Blah2014/phonegap-inmobi-plugin/blob/gh-pages/inmobi/Sample-Integration-2.png" target="_blank">
+                        <img src="https://github.com/Blah2014/phonegap-inmobi-plugin/raw/gh-pages/inmobi/Sample-Integration-2.png" alt="Adding Frameworks" style="max-width:100%;">
+                    </a>
+                    If you use iOS 8, please add the NSLocationWhenInUseUsageDescription flag to your info.plist file.</p>
+
+                <h6>
+                    <a name="user-content-adding-additional-build-settings" class="anchor" href="#adding-additional-build-settings" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Adding Additional Build Settings</h6>
+
+                <p>Add the -ObjC flag to the Other Linker Flags. To do so, perform the below steps:</p>
+
+                <ol class="task-list">
+                    <li>Open your project in Xcode.</li>
+                    <li>Select Application Target &gt; Build Settings.</li>
+                    <li>In the Search field, search for 'Other Linker Flags'.</li>
+                    <li>Add the -ObjC flag.</li>
+                </ol>
+
+                <p>
+                    <a href="https://github.com/Blah2014/phonegap-inmobi-plugin/blob/gh-pages/inmobi/AddObjc.png" target="_blank">
+                        <img src="https://github.com/Blah2014/phonegap-inmobi-plugin/raw/gh-pages/inmobi/AddObjc.png" alt="AddObjc" style="max-width:100%;">
+                    </a>
+                </p>
+
+                <h6>
+                    <a name="user-content-insert-inmobi-property-id" class="anchor" href="#insert-inmobi-property-id" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Insert InMobi property ID</h6>
+
+                <p>In CDVInMobi.m replace "Insert InMobi property ID here" in two places with your siteID from InMobi property.</p>
+
+                <h3>
+                    <a name="user-content-android" class="anchor" href="#android" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Android</h3>
+
+                <h6>
+                    <a name="user-content-adding-the-sdk-to-your-project-1" class="anchor" href="#adding-the-sdk-to-your-project-1" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Adding the SDK to your Project</h6>
+
+                <p>Download latest InMobi SDK for Android</p>
+
+                <h6>
+                    <a name="user-content-configuration-1" class="anchor" href="#configuration-1" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Configuration</h6>
+
+                <p>Copy the InMobi-4.x.x.jar file to your project by performing the steps given below.</p>
+
+                <ol class="task-list">
+                    <li>Create a subdirectory named libs in the root directory of your project.</li>
+                    <li>Copy the InMobi-4.x.x.jar file into the libs directory.</li>
+                </ol>
+
+                <p>To add the JAR files to your project, perform the following steps:</p>
+
+                <ol class="task-list">
+                    <li>Right-click your project from the Package Explorer tab.</li>
+                    <li>Select Properties.</li>
+                    <li>Select Java Build Path from the left navigation area.</li>
+                    <li>Select the Libraries tab from the main window.</li>
+                    <li>Click Add JARs...</li>
+                    <li>Select the InMobi-4.x.x.jar file that you copied earlier to the libs directory.</li>
+                    <li>Click OK to add the InMobi SDK to your Android project.</li>
+                </ol>
+
+                <h6>
+                    <a name="user-content-manifest-file-changes" class="anchor" href="#manifest-file-changes" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Manifest File Changes</h6>
+
+                <p>Include the below within the &lt;application&gt; tag.</p>
+
+                <pre><code>    &lt;activity android:name="com.inmobi.androidsdk.IMBrowserActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:hardwareAccelerated="true" /&gt;
+</code></pre>
+
+                <p>Include the below within the &lt;manifest&gt; tag.</p>
+
+                <pre><code>    &lt;uses-permission android:name="android.permission.INTERNET" /&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /&gt;
+    &lt;uses-permission android:name="android.permission.CALL_PHONE" /&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /&gt;
+    &lt;uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /&gt;
+    &lt;uses-permission android:name="android.permission.VIBRATE" /&gt;
+    &lt;uses-permission android:name="android.permission.RECORD_AUDIO" /&gt;
+    &lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /&gt;
+    &lt;uses-permission android:name="android.permission.READ_LOGS" /&gt;
+    &lt;uses-permission android:name="android.permission.READ_CALENDAR"/&gt;
+    &lt;uses-permission android:name="android.permission.WRITE_CALENDAR"/&gt;
+    &lt;uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /&gt;
+</code></pre>
+
+                <h6>
+                    <a name="user-content-insert-inmobi-property-id-1" class="anchor" href="#insert-inmobi-property-id-1" aria-hidden="true">
+                        <span class="octicon octicon-link"></span>
+                    </a>Insert InMobi property ID</h6>
+
+                <p>In CDVInMobi.java replace "Insert InMobi property ID here" in two places with your siteID from InMobi property.</p>
+            </article>
         </section>
     </div>
 
