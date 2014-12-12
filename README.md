@@ -1,6 +1,10 @@
 phonegap-inmobi-plugin
 ======================
 
+> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2HFZWSUPV47Q">
+  <img src="https://raw.githubusercontent.com/Blah2014/phonegap-inmobi-plugin/gh-pages/images/BuymeaCoffee.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+</a>
+
 This plugin provides an implementation of InMobi Native Interstitial Ad.
 
 <h2>Supported platforms</h2>
